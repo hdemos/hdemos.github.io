@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss res/scss/main.scss res/css/style.css",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,6 @@
   },
   "homepage": "https://github.com/hdemos/hdemos.github.io#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.11"
+    "node-sass": "^4.11.0"
   }
 }
