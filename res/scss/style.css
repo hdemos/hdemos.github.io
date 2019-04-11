@@ -1,0 +1,27 @@
+* {
+  font-family: Helvetica, Arial, san-serif;
+}
+
+h1 {
+  color: SeaGreen;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-bar {
+  background:#426BA5;
+  /* F6978C vivid tangerine    BEF0D9 magic mint     8DD1DC middle blue green    FFFFFF white */
+}
+
+.bio {
+  padding: 0 1.5em 0 1.5em;
+}
+.box {
+  padding: 0 1.5em 0 1.5em;
+}

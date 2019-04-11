@@ -1,0 +1,23 @@
+{
+  "name": "hdemos.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdemos/hdemos.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdemos/hdemos.github.io/issues"
+  },
+  "homepage": "https://github.com/hdemos/hdemos.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.11"
+  }
+}
