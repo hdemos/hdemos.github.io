@@ -1,0 +1,62 @@
+//google font-size
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800i|Roboto:400,400i,700&effect=3d-float');
+// variables & defaults
+$font-stack: Helvetica, sans-serif;
+$font-primary: #ffffff;
+
+
+$font-montseratt:'Montserrat', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+
+//sizes
+// @include font-size-regular	//16
+// @include font-size-large	//24
+// @include font-size-x-large	//32
+// @include font-size-xx-large	//48
+// @include font-size-xxx-large
+// @include font-size-xxxx-large //96
+
+
+
+
+h1 {
+  font-size: 6.125em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: $font-montseratt;
+}
+h2 {font-size: 2.618em;}
+h3 {
+  font-size: 1.931em;
+  font-weight: normal;
+  font-family: $font-roboto;
+}
+h4 {
+  font-size: 1.618;
+  font-family: $font-roboto;
+}
+h5 {
+  font-size: 1.194em;
+  font-family: $font-roboto;
+}
+h6 {
+  font-size: 1em;
+  font-family: $font-roboto;
+}
+div {
+  font-family: $font-roboto;
+  font-weight: lighter;
+}
+
+
+//stylesheet
+.button {
+  font-family: $font-stack;
+  background-color: $color-accent2;
+}
+
+.invis-box {
+  font-size: 6em;
+  color: #ffffff;
+}

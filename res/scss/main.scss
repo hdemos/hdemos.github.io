@@ -6,13 +6,6 @@
 @import 'layout/header';
 @import 'layout/footer';
 
-
 @import 'components/buttons';
 @import 'components/icons';
 @import 'components/typography';
-
-$badass: #bada55;
-body {
-  margin: 0;
-  background-color: $badass;
-}

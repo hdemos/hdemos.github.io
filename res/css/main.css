@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:700);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800i|Roboto:400,400i,700&effect=3d-float");
+.centered {
+  text-align: center; }
+
+header {
+  background-color: #426BA5; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column; }
+
+.header-intro {
+  justify-content: space-between;
+  background-color: #8DD1DC; }
+
+.header-pic {
+  align-items: stretch;
+  background-image: url("../../res/img/haleydemosflowers.jpg"); }
+
+.flex-one {
+  flex: 3 1 0; }
+
+.flex-two {
+  flex: 4 1 0; }
+
+h1 {
+  font-size: 6.125em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+h2 {
+  font-size: 2.618em; }
+
+h3 {
+  font-size: 1.931em;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif; }
+
+h4 {
+  font-size: 1.618;
+  font-family: "Roboto", sans-serif; }
+
+h5 {
+  font-size: 1.194em;
+  font-family: "Roboto", sans-serif; }
+
+h6 {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif; }
+
+div {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter; }
+
+.button {
+  font-family: Helvetica, sans-serif;
+  background-color: #F6978C; }
+
+.invis-box {
+  font-size: 6em;
+  color: #ffffff; }

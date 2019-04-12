@@ -1,0 +1,49 @@
+
+@import url(//fonts.googleapis.com/css?family=Oswald:700);
+
+// $font-stack: Oswald, sans-serif;
+// $font-title-size: 3.2rem;
+// $font-tagline-size: 2.2rem;
+// $line-height: 1.2;
+// $padding: 1rem;
+// $wrapper-height: 500px;
+// $wrapper-bg-color: #ffffff;
+// $title-area-width: 90%;
+// $title-area-base-distance: 15%;
+// $title-area-color: darken( #ffffff, 15% );
+// $title-area-bg-color: rgba( 0, 0, 0, 0.7 );
+// $title-halo: 0 0 1rem rgba( 200, 200, 200, 0.5 ) inset;
+// $title-shadow: 0.3rem 0 0.5rem rgba( 0, 0, 0, 0.5 ) ;
+
+header{
+  background-color: $color-primary;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.header-intro{
+  justify-content: space-between;
+  background-color: $color-secondary;
+}
+
+// .header-words{
+//   flex-grow: 2;
+// }
+
+.header-pic {
+  align-items:  stretch;
+  background-image: url("../../res/img/haleydemosflowers.jpg");
+}
+
+.flex-one{
+  flex: 3 1 0;
+}
+.flex-two{
+  flex: 4 1 0;
+}
