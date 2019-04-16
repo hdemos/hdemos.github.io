@@ -15,9 +15,90 @@
 // $title-halo: 0 0 1rem rgba( 200, 200, 200, 0.5 ) inset;
 // $title-shadow: 0.3rem 0 0.5rem rgba( 0, 0, 0, 0.5 ) ;
 
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 30px;
+$nav-background: $color-secondary;
+$nav-font-color: #ffffff;
+$link-hover-color: #2581dc;
+
 header{
   background-color: $color-primary;
 }
+// .burger-icon {
+//     @include burger(25px, 3px, 5px, #222);
+// }
+// .circle.is-active .burger-icon {
+//     @include burger-to-cross;
+// }
+
+.menu-button {
+	display: inline-block;
+	padding: .5em;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+}
+
+.burger-icon {
+	@include burger(25px, 3px, 5px, #444);
+}
+
+.menu-button.is-active .burger-icon {
+	@include burger-to-cross;
+  // @include nav-toggle;
+}
+
+
+//nav menudropdown
+.subnav {
+  display: none;
+
+  // float: right;
+  // @include burger-parts;
+  ul {
+
+    // display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    li {
+      float: left;
+      display: inline-block;
+      //position: relative;
+     a {
+      display: inline-block;
+      padding: 0 50px;
+      line-height: $nav-height;
+      background: $nav-background;
+      color: $nav-font-color;
+      text-decoration: none;
+
+       &:hover {
+         background: $link-hover-color;
+         color: $nav-font-color;
+       }
+       &:not(:only-child):after {
+         padding-left: 4px;
+         content: ' ▾';
+       }
+     } // Dropdown list
+     ul li {
+       min-width: 109px;
+       a {
+         padding: 15px;
+         line-height: 20px;
+       }
+     }
+   }
+  }
+}
+.subnav.m-fadeIn {
+  display: block;
+}
+
+
+//header picture & title flexbox
 .flex-row{
   display: flex;
   flex-direction: row;
@@ -39,6 +120,7 @@ header{
 .header-pic {
   align-items:  stretch;
   background-image: url("../../res/img/haleydemosflowers.jpg");
+  background-repeat: no-repeat;
 }
 
 .flex-one{

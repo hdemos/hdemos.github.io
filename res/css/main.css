@@ -1,10 +1,103 @@
+@charset "UTF-8";
 @import url(//fonts.googleapis.com/css?family=Oswald:700);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800i|Roboto:400,400i,700&effect=3d-float");
 .centered {
   text-align: center; }
 
+body {
+  background-color: #DFF2F5;
+  padding: 0 0 0 0; }
+
+nav {
+  background-color: #426BA5; }
+
 header {
   background-color: #426BA5; }
+
+.menu-button {
+  display: inline-block;
+  padding: .5em;
+  background-color: #fafafa;
+  border: 1px solid #ccc; }
+
+.burger-icon {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .burger-icon, .burger-icon::before, .burger-icon::after {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #444;
+    outline: 1px solid transparent;
+    -webkit-transition-property: background-color, -webkit-transform;
+    -moz-transition-property: background-color, -moz-transform;
+    -o-transition-property: background-color, -o-transform;
+    transition-property: background-color, transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  .burger-icon::before, .burger-icon::after {
+    position: absolute;
+    content: ""; }
+  .burger-icon::before {
+    top: -8px; }
+  .burger-icon::after {
+    top: 8px; }
+
+.menu-button.is-active .burger-icon {
+  background-color: transparent; }
+
+.menu-button.is-active .burger-icon::before {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -moz-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg); }
+
+.menu-button.is-active .burger-icon::after {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -moz-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg); }
+
+.subnav {
+  display: none; }
+  .subnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; }
+    .subnav ul li {
+      float: left;
+      display: inline-block; }
+      .subnav ul li a {
+        display: inline-block;
+        padding: 0 50px;
+        line-height: 30px;
+        background: #8DD1DC;
+        color: #ffffff;
+        text-decoration: none; }
+        .subnav ul li a:hover {
+          background: #2581dc;
+          color: #ffffff; }
+        .subnav ul li a:not(:only-child):after {
+          padding-left: 4px;
+          content: ' ▾'; }
+      .subnav ul li ul li {
+        min-width: 109px; }
+        .subnav ul li ul li a {
+          padding: 15px;
+          line-height: 20px; }
+
+.subnav.m-fadeIn {
+  display: block; }
 
 .flex-row {
   display: flex;
@@ -20,7 +113,8 @@ header {
 
 .header-pic {
   align-items: stretch;
-  background-image: url("../../res/img/haleydemosflowers.jpg"); }
+  background-image: url("../../res/img/haleydemosflowers.jpg");
+  background-repeat: no-repeat; }
 
 .flex-one {
   flex: 3 1 0; }
