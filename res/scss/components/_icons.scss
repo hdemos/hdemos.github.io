@@ -1,0 +1,68 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.icons {
+  align-items: flex-end;
+  text-align: right;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto 20px;
+  padding: 20px;
+  width: 100%;
+  // box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .4);
+  background: none !important;
+  align-items: flex-end;
+  text-align: right;
+}
+.social-tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+.circle-icon {
+  padding: 10px 10px;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: none;
+  border-radius: 25px;
+  border: solid 2px;
+  box-shadow: 0 .365em .213em -0.213em rgba(0,0,0,.8), inset 0 .063em rgba(255,255,255,.4), inset 0 -0.188em rgba(0,0,0,.15);
+}
+//facebook icon
+.fa-github {
+  color: hsl(221, 44%, 41%);
+  border-color: hsl(221, 44%, 41%);
+}
+.fa-github:hover {
+  background-color: hsl(221, 35%, 50%);
+}
+//twitter icon
+.fa-twitter {
+  color: hsl(195, 100%, 60%);
+  border-color: hsl(195, 100%, 60%);
+}
+.fa-twitter:hover {
+  background-color: hsl(195, 80%, 60%);
+}
+
+//linkedin icon
+.fa-linkedin {
+  color: hsl(199, 85%, 36%);
+  border-color: hsl(199, 85%, 36%);
+}
+
+.fa-linkedin:hover {
+  background-color: hsl(199, 75%, 45%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
