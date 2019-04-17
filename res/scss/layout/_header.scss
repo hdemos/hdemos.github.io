@@ -24,6 +24,8 @@ $link-hover-color: #2581dc;
 
 header{
   background-color: $color-primary;
+  box-shadow: 0 .375em .313em -0.313em rgba(0,0,0,.8), inset 0 .063em rgba(255,255,255,.4), inset 0 -0.188em rgba(0,0,0,.15);
+  border-radius: .6em;
 }
 // .burger-icon {
 //     @include burger(25px, 3px, 5px, #222);
@@ -112,6 +114,7 @@ header{
 .header-intro{
   justify-content: space-between;
   background-color: $color-secondary;
+  border-radius: .3em;
 }
 
 // .header-words{
@@ -122,6 +125,7 @@ header{
   align-items:  stretch;
   background-image: url("../../res/img/haleydemosflowers.jpg");
   background-repeat: no-repeat;
+  border-radius: .3em;
 }
 
 .flex-one{
@@ -129,4 +133,9 @@ header{
 }
 .flex-two{
   flex: 4 1 0;
+}
+
+.font-effect-3d-float h3{
+  color: #000000;
+  font-style: italic;
 }

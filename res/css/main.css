@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url(//fonts.googleapis.com/css?family=Oswald:700);
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800i|Roboto:400,400i,700&effect=3d-float");
 .centered {
   text-align: center; }
@@ -12,8 +11,13 @@ body {
 nav {
   background-color: #426BA5; }
 
+.shadow {
+  box-shadow: 0 0.375em 0.313em -0.313em rgba(0, 0, 0, 0.8), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em rgba(0, 0, 0, 0.15); }
+
 header {
-  background-color: #426BA5; }
+  background-color: #426BA5;
+  box-shadow: 0 0.375em 0.313em -0.313em rgba(0, 0, 0, 0.8), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em rgba(0, 0, 0, 0.15);
+  border-radius: .6em; }
 
 .menu-button {
   display: inline-block;
@@ -111,18 +115,24 @@ header {
 
 .header-intro {
   justify-content: space-between;
-  background-color: #8DD1DC; }
+  background-color: #8DD1DC;
+  border-radius: .3em; }
 
 .header-pic {
   align-items: stretch;
   background-image: url("../../res/img/haleydemosflowers.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: .3em; }
 
 .flex-one {
   flex: 3 1 0; }
 
 .flex-two {
   flex: 4 1 0; }
+
+.font-effect-3d-float h3 {
+  color: #000000;
+  font-style: italic; }
 
 .button-pad {
   margin: 10px 10px 10px 10px; }
