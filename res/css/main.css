@@ -17,6 +17,15 @@ nav {
 .margin5 {
   margin: 5em; }
 
+.margin3-left {
+  margin-left: 3em; }
+
+.margin2 {
+  margin: 2em; }
+
+.justified {
+  justify-content: space-between; }
+
 .container {
   height: 100%;
   display: flex;
@@ -75,7 +84,7 @@ header {
 
 .slideLeft {
   animation-name: slideLeft;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   visibility: visible !important; }
 
