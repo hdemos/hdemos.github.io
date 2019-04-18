@@ -38,27 +38,30 @@
 .fa-github {
   color: hsl(221, 44%, 41%);
   border-color: hsl(221, 44%, 41%);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .fa-github:hover {
-  background-color: hsl(221, 35%, 50%);
+  background-color: hsl(221, 35%, 70%);
 }
 //twitter icon
 .fa-twitter {
   color: hsl(195, 100%, 60%);
   border-color: hsl(195, 100%, 60%);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .fa-twitter:hover {
-  background-color: hsl(195, 80%, 60%);
+  background-color: hsl(195, 100%, 85%);
 }
 
 //linkedin icon
 .fa-linkedin {
   color: hsl(199, 85%, 36%);
   border-color: hsl(199, 85%, 36%);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .fa-linkedin:hover {
-  background-color: hsl(199, 75%, 45%);
+  background-color: hsl(199, 75%, 65%);
 }
 
 .screen-reader {

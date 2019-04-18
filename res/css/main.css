@@ -266,24 +266,27 @@ header {
 
 .fa-github {
   color: #3b5897;
-  border-color: #3b5897; }
+  border-color: #3b5897;
+  background-color: rgba(255, 255, 255, 0.4); }
 
 .fa-github:hover {
-  background-color: #536fac; }
+  background-color: #98a9cd; }
 
 .fa-twitter {
   color: #33ccff;
-  border-color: #33ccff; }
+  border-color: #33ccff;
+  background-color: rgba(255, 255, 255, 0.4); }
 
 .fa-twitter:hover {
-  background-color: #47c2eb; }
+  background-color: #b3ecff; }
 
 .fa-linkedin {
   color: #0e78aa;
-  border-color: #0e78aa; }
+  border-color: #0e78aa;
+  background-color: rgba(255, 255, 255, 0.4); }
 
 .fa-linkedin:hover {
-  background-color: #1d92c9; }
+  background-color: #63bee9; }
 
 .screen-reader {
   position: absolute;
