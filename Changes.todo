@@ -1,7 +1,7 @@
 Changes:
   ☐ Pull out the nav-related code and put in _navigation.scss
   ☐ Consolodate all animations in 1 file
-  ☐ Fix name animation
+  ✔ Fix name animation @done(2019-04-17 22:19) @project(Changes)
 
 Add Features:
   ☐ Create an animation page
