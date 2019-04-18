@@ -2,9 +2,14 @@ Changes:
   ☐ Pull out the nav-related code and put in _navigation.scss
   ✔ Consolodate all animations in 1 file @done(2019-04-17 23:30) @project(Changes)
   ✔ Fix name animation @done(2019-04-17 22:19) @project(Changes)
+  ☐ round menu icon corners
+  ☐ add nav bar
+  ☐ change header background to match page
+
 
 Add Features:
   ☐ Create an animation page
   ☐ Add accessibility & highlight these
   ☐ Add simple button anumation?
   ☐ Change loading for mobile screens
+  ☐ add footer
