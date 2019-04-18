@@ -1,20 +1,6 @@
 
 @import url(//fonts.googleapis.com/css?family=Oswald:700);
 
-// $font-stack: Oswald, sans-serif;
-// $font-title-size: 3.2rem;
-// $font-tagline-size: 2.2rem;
-// $line-height: 1.2;
-// $padding: 1rem;
-// $wrapper-height: 500px;
-// $wrapper-bg-color: #ffffff;
-// $title-area-width: 90%;
-// $title-area-base-distance: 15%;
-// $title-area-color: darken( #ffffff, 15% );
-// $title-area-bg-color: rgba( 0, 0, 0, 0.7 );
-// $title-halo: 0 0 1rem rgba( 200, 200, 200, 0.5 ) inset;
-// $title-shadow: 0.3rem 0 0.5rem rgba( 0, 0, 0, 0.5 ) ;
-
 $content-width: 1000px;
 $breakpoint: 799px;
 $nav-height: 30px;
@@ -27,12 +13,17 @@ header{
   box-shadow: 0 .375em .313em -0.313em rgba(0,0,0,.8), inset 0 .063em rgba(255,255,255,.4), inset 0 -0.188em rgba(0,0,0,.15);
   border-radius: .6em;
 }
-// .burger-icon {
-//     @include burger(25px, 3px, 5px, #222);
-// }
-// .circle.is-active .burger-icon {
-//     @include burger-to-cross;
-// }
+// #name{ visibility: hidden;}
+.slideRight{
+	animation-name: slideRight;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+  visibility: visible !important;
+
+}
+
+
+
 
 .menu-button {
 	display: inline-block;
@@ -138,69 +129,4 @@ header{
 .font-effect-3d-float h3{
   color: #000000;
   font-style: italic;
-}
-
-//animate name
-#haley {
-	width: 200px;
-	padding: 2em 0;
-	background: #c14545;
-	visibility: hidden;
-}
-
-.slideDown{
-	animation-name: slideDown;
-	-webkit-animation-name: slideDown;
-
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;
-}
-
-
-
-@keyframes slideDown {
-	0% {
-		transform: translateY(-100%);
-	}
-	50%{
-		transform: translateY(8%);
-	}
-	65%{
-		transform: translateY(-4%);
-	}
-	80%{
-		transform: translateY(4%);
-	}
-	95%{
-		transform: translateY(-2%);
-	}
-	100% {
-		transform: translateY(0%);
-	}
-}
-
-@-webkit-keyframes slideDown {
-	0% {
-		-webkit-transform: translateY(-100%);
-	}
-	50%{
-		-webkit-transform: translateY(8%);
-	}
-	65%{
-		-webkit-transform: translateY(-4%);
-	}
-	80%{
-		-webkit-transform: translateY(4%);
-	}
-	95%{
-		-webkit-transform: translateY(-2%);
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}
 }

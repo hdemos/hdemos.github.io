@@ -1,0 +1,7 @@
+Changes:
+  ☐ Pull out the nav-related code and put in _navigation.scss
+  ☐ Consolodate all animations in 1 file 
+
+Add Features:
+  ☐ Create an animation page
+  ☐ Add accessibility & highlight these

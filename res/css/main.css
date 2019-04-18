@@ -59,10 +59,22 @@ nav {
   to {
     background-position: 0 -400vh; } }
 
+@keyframes slideRight {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(0%); } }
+
 header {
   background-color: #426BA5;
   box-shadow: 0 0.375em 0.313em -0.313em rgba(0, 0, 0, 0.8), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em rgba(0, 0, 0, 0.15);
   border-radius: .6em; }
+
+.slideRight {
+  animation-name: slideRight;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  visibility: visible !important; }
 
 .menu-button {
   display: inline-block;
@@ -178,49 +190,6 @@ header {
 .font-effect-3d-float h3 {
   color: #000000;
   font-style: italic; }
-
-#haley {
-  width: 200px;
-  padding: 2em 0;
-  background: #c14545;
-  visibility: hidden; }
-
-.slideDown {
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  animation-timing-function: ease;
-  -webkit-animation-timing-function: ease;
-  visibility: visible !important; }
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%); }
-  50% {
-    transform: translateY(8%); }
-  65% {
-    transform: translateY(-4%); }
-  80% {
-    transform: translateY(4%); }
-  95% {
-    transform: translateY(-2%); }
-  100% {
-    transform: translateY(0%); } }
-
-@-webkit-keyframes slideDown {
-  0% {
-    -webkit-transform: translateY(-100%); }
-  50% {
-    -webkit-transform: translateY(8%); }
-  65% {
-    -webkit-transform: translateY(-4%); }
-  80% {
-    -webkit-transform: translateY(4%); }
-  95% {
-    -webkit-transform: translateY(-2%); }
-  100% {
-    -webkit-transform: translateY(0%); } }
 
 .button-pad {
   margin: 10px 10px 10px 10px; }
