@@ -1,7 +1,10 @@
 Changes:
   ☐ Pull out the nav-related code and put in _navigation.scss
-  ☐ Consolodate all animations in 1 file 
+  ☐ Consolodate all animations in 1 file
+  ☐ Fix name animation
 
 Add Features:
   ☐ Create an animation page
   ☐ Add accessibility & highlight these
+  ☐ Add simple button anumation?
+  ☐ Change loading for mobile screens
