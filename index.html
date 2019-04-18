@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="header-words header-flex flex-col flex-one">
-        <div class="font-effect-3d-float header-name"><h1>Haley</h1><p/></div>
+        <div class="font-effect-3d-float header-name animation-slide-in-up" id="haley"><h1>Haley</h1><p/></div>
         <div class="font-effect-3d-float centered"><h1>Demos</h1></div>
         <div class="centered font-effect-3d-float">
           <h3>Developer * Entrepreneur * Teacher</h3>
@@ -92,7 +92,13 @@
         <div class="a">
 
         </div>
-
+        <script type="text/javascript">
+          document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+              document.getElementById('haley').className = 'slideDown';
+            }, 3000);
+          }, false);
+        </script>
 
       </div>
 
