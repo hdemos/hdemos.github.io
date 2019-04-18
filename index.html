@@ -14,43 +14,44 @@
 </head>
 <body>
 <!-- header section with name,picture and nav -->
-
+<nav>
+<!--  just added-->
+  <div class="flex-row">
+    <div class="nav-bar rounded-corners">
+      <a href="#" class="menu-button rounded-corners" id="menuButton">
+        <span class="burger-icon"></span>
+      </a>
+      <div class= "subnav" id="subnav">
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="HALEYDEMOS_RESUME.pdf" target="_blank">Resume</a></li>
+          <!-- <li><a href="#">Passions</a></li> -->
+          <!-- <ul class="nav-dropdown">
+            <li><a href="#!">Music</a></li>
+            <li><a href="#!">Web Development</a></li>
+            <li><a href="#!">Teaching</a></li>
+            <li><a href="#!">Accessibility</a></li>
+          </ul> -->
+          <li><a href="#animation">Animation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+  var menuButton = document.getElementById('menuButton');
+  var toggle = document.getElementById('subnav');
+  menuButton.addEventListener('click', function (e) {
+      menuButton.classList.toggle('is-active');
+      toggle.classList.toggle("m-fadeIn");
+      e.preventDefault();
+  });
+  </script>
+</nav>
   <header class="rounded-corners">
 
 
 
-    <nav>
-    <!--  just added-->
-      <div class="flex-row">
-        <a href="#" class="menu-button rounded-corners" id="menuButton">
-          <span class="burger-icon"></span>
-        </a>
 
-        <div class= "subnav" id="subnav">
-          <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="HALEYDEMOS_RESUME.pdf" target="_blank">Resume</a></li>
-            <!-- <li><a href="#">Passions</a></li> -->
-            <!-- <ul class="nav-dropdown">
-              <li><a href="#!">Music</a></li>
-              <li><a href="#!">Web Development</a></li>
-              <li><a href="#!">Teaching</a></li>
-              <li><a href="#!">Accessibility</a></li>
-            </ul> -->
-            <li><a href="#animation">Animation</a></li>
-          </ul>
-        </div>
-      </div>
-      <script>
-      var menuButton = document.getElementById('menuButton');
-      var toggle = document.getElementById('subnav');
-      menuButton.addEventListener('click', function (e) {
-          menuButton.classList.toggle('is-active');
-          toggle.classList.toggle("m-fadeIn");
-          e.preventDefault();
-      });
-      </script>
-    </nav>
     <section class="header-intro flex-row ">
 
       <div class="header-pic header-flex flex-two">

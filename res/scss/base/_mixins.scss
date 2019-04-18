@@ -158,7 +158,7 @@ $sass-burger-add-vendor-prefixes: true !default;
 
 //toggling the navigation Dropdown
 
-@mixin nav-toggle($width: 90px, $height: 150px, $gutter: 5px, $color: #000, $border-radius: 0, $transition-duration: .3s){
+@mixin nav-toggle($width: 90px, $height: 150px, $gutter: 5px, $color: #000, $border-radius: 0, $transition-duration: 3s){
   position: absolute;
   left: 18px;
   top: 22px;
