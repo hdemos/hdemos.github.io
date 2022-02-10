@@ -19,7 +19,7 @@
   "homepage": "https://github.com/hdemos/hdemos.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postcss-cli": "^6.1.2"
   },
   "dependencies": {
